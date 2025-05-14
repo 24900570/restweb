@@ -498,10 +498,10 @@ table.html
 
 ```
 ## OUTPUT:
+![alt text](<Screenshot 2025-05-14 211959.png>)
+![alt text](<Screenshot 2025-05-14 212027.png>) 
+![alt text](<Screenshot 2025-05-14 212232.png>) 
+![alt text](<Screenshot 2025-05-14 212247.png>)
 
-![alt text](<Screenshot 2025-05-14 211959-1.png>)
-[alt text](<Screenshot 2025-05-14 212247-1.png>)
-[alt text](<Screenshot 2025-05-14 212232-1.png>) 
-![alt text](<Screenshot 2025-05-14 212027-1.png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
