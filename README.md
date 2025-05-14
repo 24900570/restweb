@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:20/12/2024
+## Date:14:05:2025
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -29,11 +29,12 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
+about.html
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Rio Foods</title>
+    <title>About Us - AJITH Foods</title>
     <style>
         body {
             background-color: rgb(145, 112, 160);
@@ -42,7 +43,7 @@ Publish the website in the given URL.
             padding: 0;
         }
         header {
-            background-color: rgb(34, 87, 88);
+            background-color: rgb(95, 173, 174);
             color: white;
             padding: 15px 20px;
             text-align: center;
@@ -50,15 +51,15 @@ Publish the website in the given URL.
         nav {
             display: flex;
             justify-content: center;
-            background-color: rgb(14, 239, 40);
+            background-color: rgb(162, 215, 168);
         }
         nav a {
-            color: rgb(124, 92, 92);
+            color: rgba(115, 108, 108, 0.574);
             text-decoration: none;
             padding: 14px 20px;
         }
         nav a:hover {
-            background-color: rgb(10, 212, 248);
+            background-color: rgba(100, 134, 140, 0.674);
         }
         section {
             padding: 20px;
@@ -71,7 +72,7 @@ Publish the website in the given URL.
             text-align: justify;
         }
         footer {
-            background-color: rgb(108, 75, 36);
+            background-color: rgb(135, 102, 61);
             color: white;
             text-align: center;
             padding: 10px 20px;
@@ -97,12 +98,85 @@ Publish the website in the given URL.
     </section>
     <footer>
         <p>&copy; The Great Indian Kitchen. All Rights Reserved.</p>
-        <p> designed and developed by: THARRUN D</p>
+        <p> designed and developed by: AJITH A</p>
     </footer>
 </body>
 </html>
 
+contact.html
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Great Indian Kitchen</title>
+    <style>
+        body {
+            background-color: rgb(118, 54, 161);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgb(41, 106, 106);
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(147, 110, 59);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav a:hover {
+            background-color: rgb(61, 230, 97);
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-info {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: rgb(162, 240, 89);
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>A warm welcome</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 9363649428</p>
+            <p><strong>Email:</strong> thegreatindiankitchen@gmail.com</p>
+            <p><strong>Address:</strong> 340, 341, 2nd Ave, G Block, Ranganathan Garden, Anna Nagar, Chennai, Tamil Nadu 600040</p>
+            <p>we value your feedback</p>
+    </section>
+    <footer>
+        <p>&copy; The Great Indian Kitchen. All Rights Reserved.</p>
+        <p> designed and developed by: AJITH A</p>
+    </footer>
+</body>
+</html>
 
+index.html
 <html>
 <head>
     <meta charset="UTF-8">
@@ -201,109 +275,12 @@ Publish the website in the given URL.
     </section>
     <footer>
         <p>&copy; The Great Indian Kitchen. All Rights Reserved.</p>
-        <p> designed and developed by: THARRUN D </p>
+        <p> designed and developed by: AJITH A </p>
     </footer>
 </body>
 </html>
 
-
-
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Rio Foods</title>
-    <style>
-        body {
-            background-color: rgb(245, 83, 220);
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: rgb(92, 223, 225);
-            color: white;
-            padding: 15px 20px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: rgb(85, 241, 90);
-        }
-        nav a {
-            color: rgb(248, 97, 97);
-            text-decoration: none;
-            padding: 14px 20px;
-        }
-        nav a:hover {
-            background-color: rgb(198, 224, 114);
-        }
-        section {
-            padding: 20px;
-        }
-        .menu {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-        .menu-item {
-            border: 1px solid silver;
-            border-radius: 5px;
-            margin: 10px;
-            padding: 20px;
-            width: 300px;
-        }
-        .menu-item img {
-            max-width: 100%;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: rgb(205, 205, 87);
-            color: white;
-            text-align: center;
-            padding: 10px 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Our Menu</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <section>
-        <h2>Explore Our Dishes</h2>
-        <div class="menu">
-            <div class="menu-item">
-                <img src="briyani.jpeg" alt="briyani">
-                <h3>briyani</h3>
-                <p>A flavorful and spicy Indian appetizer made with juicy chicken , steamed to have a tasty perfection.</p>
-            </div>
-            <div class="menu-item">
-                <img src="parotta 95.jpeg" alt="Parotta 95 Masala">
-                <h3>Parotta 95 Masala</h3>
-                <p>A rich and creamy North Indian curry with soft parotta in a buttery tomato-based gravy.</p>
-            </div>
-            <div class="menu-item">
-                <img src="grill.jpeg" alt="grill">
-                <h3>grill</h3>
-                <p>grill is an american based dish made of chicken fired to juicy flavour.</p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; Rio Foods. All Rights Reserved.</p>
-        <p> designed and developed by: RAHUL RIO S</p>
-    </footer>
-</body>
-</html>
-
+menu.html
 <html>
 <head>
     <meta charset="UTF-8">
@@ -311,7 +288,7 @@ Publish the website in the given URL.
     <title>Menu - The Great Indian Kitchen</title>
     <style>
         body {
-            background-color: rgb(200, 96, 205);
+            background-color: rgb(194, 174, 195);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -328,7 +305,7 @@ Publish the website in the given URL.
             background-color: rgb(85, 241, 90);
         }
         nav a {
-            color: rgb(248, 97, 97);
+            color: rgb(101, 66, 66);
             text-decoration: none;
             padding: 14px 20px;
         }
@@ -395,19 +372,136 @@ Publish the website in the given URL.
     </section>
     <footer>
         <p>&copy; The Great Indian Kitchen. All Rights Reserved.</p>
-        <p> designed and developed by: THARRUN D</p>
+        <p> designed and developed by: AJITH A</p>
+    </footer>
+</body>
+</html>
+table.html
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Indian Kitchen</title>
+    <style>
+        body {
+            background-color: cornsilk;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:grey;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color:chocolate;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav a:hover {
+            background-color:grey;
+        }
+        .hero {
+             background-color:navajowhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            border: 1px solid rgb(51, 170, 103);
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color:rgb(240, 247, 115);
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Great Indian Kitchen</h1>
+    </header>
+    <nav>
+        <a href="home.html">home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Our Restaurant</h1>
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about serving delicious food made with fresh ingredients. Join us for an unforgettable dining experience!</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="briyani.jpeg">
+                <h3>briyani</h3>
+                <p>A flavorful and spicy Indian appetizer made with juicy chicken , steamed to have a tasty perfection.</p>
+            </div>
+            <div class="menu-item">
+                <img src="parotta 95.jpeg">
+                <h3>parotta 95</h3>
+                <p>A rich and creamy North Indian curry with soft parotta in a buttery tomato-based gravy.</p>
+            </div>
+            <div class="menu-item">
+                <img src="grill.jpeg">
+                <h3>grill</h3>
+                <p>grill is an american based dish made of chicken fired to juicy flavour.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone:9363649428</p>
+        <p>Email:thegreatindiankitchen@gmail.com</p>
+        <p>Address:340, 341, 2nd Ave, G Block, Ranganathan Garden, Anna Nagar, Chennai, Tamil Nadu 600040</p>
+    </section>
+    <footer>
+        <p>&copy;The Great Indian Kitchen . All Rights Reserved.</p>
     </footer>
 </body>
 </html>
 
-
-
 ```
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-25 224936.png>)
-![alt text](<Screenshot 2024-12-25 230657-1.png>)
-![alt text](<Screenshot 2024-12-25 231143-1.png>)
-![alt text](<Screenshot 2024-12-25 231543.png>)
 
+![alt text](<Screenshot 2025-05-14 211959-1.png>)
+[alt text](<Screenshot 2025-05-14 212247-1.png>)
+[alt text](<Screenshot 2025-05-14 212232-1.png>) 
+![alt text](<Screenshot 2025-05-14 212027-1.png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
